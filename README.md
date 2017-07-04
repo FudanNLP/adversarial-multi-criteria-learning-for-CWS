@@ -11,89 +11,173 @@ numpy: >=1.12.1
 
 ## File Tree
 
+```
 |-- AdvMulti_model.py
+
 |-- AdvMulti_train.py
+
 |-- Baseline_model.py
+
 |-- Baseline_train.py
+
 |-- config.py
+
 |-- data_as
+
 |   |-- dev
+
 |   |-- test
+
 |   |-- test_gold
+
 |   |-- train
+
 |   |-- words
+
 |   `-- words_for_training
+
 |-- data_cityu
+
 |   |-- dev
+
 |   |-- test
+
 |   |-- test_gold
+
 |   |-- train
+
 |   |-- words
+
 |   `-- words_for_training
+
 |-- data_ckip
+
 |   |-- dev
+
 |   |-- test
+
 |   |-- test_gold
+
 |   |-- train
+
 |   |-- words
+
 |   `-- words_for_training
+
 |-- data_ctb
+
 |   |-- dev
+
 |   |-- test
+
 |   |-- test_gold
+
 |   |-- train
+
 |   |-- words
+
 |   `-- words_for_training
+
 |-- data_helpers.py
+
 |-- data_msr
+
 |   |-- dev
+
 |   |-- test
+
 |   |-- test_gold
+
 |   |-- train
+
 |   |-- words
+
 |   `-- words_for_training
+
 |-- data_ncc
+
 |   |-- dev
+
 |   |-- test
+
 |   |-- test_gold
+
 |   |-- train
+
 |   |-- words
+
 |   `-- words_for_training
+
 |-- data_pku
+
 |   |-- dev
+
 |   |-- test
+
 |   |-- test_gold
+
 |   |-- train
+
 |   |-- words
+
 |   `-- words_for_training
+
 |-- data_sxu
+
 |   |-- dev
+
 |   |-- test
+
 |   |-- test_gold
+
 |   |-- train
+
 |   |-- words
+
 |   `-- words_for_training
+
 |-- data_weibo
+
 |   |-- dev
+
 |   |-- test
+
 |   |-- test_gold
+
 |   |-- train
+
 |   |-- words
+
 |   `-- words_for_training
+
 |-- models
+
 |   |-- cws_msr
+
 |   |   `-- checkpoints
+
 |   |-- cws_ncc
+
 |   |   `-- checkpoints
+
 |   |-- cws_sxu
+
 |   |   `-- checkpoints
+
 |   |-- multi_model9
+
 |   |   `-- checkpoints
+
 |   |-- train_words
+
 |   `-- vec100.txt
+
 |-- prepare_data_index.py
+
 |-- prepare_train_words.py
+
 `-- voc.py
+```
 
 ## Data Format
 
