@@ -183,9 +183,9 @@ numpy: >=1.12.1
 
 For **dev, train, test** in each data_directory, its format is:
 
-１９９５#<NUM>#B_NT
+１９９５#\<NUM>#B_NT
 
-The first one is the original char(1995), the second one is the processed char(<NUM>), the last one is the segmentation tag and POS(B_NT). The POS information is not needed in the paper, its just for the convenience of the expand use.
+The first one is the original char(1995), the second one is the processed char(\<NUM>), the last one is the segmentation tag and POS(B_NT). The POS information is not needed in the paper, its just for the convenience of the expand use.
 
 For **words** in each data_directory, it is a dict for words:
 
